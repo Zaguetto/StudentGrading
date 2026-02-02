@@ -62,3 +62,74 @@ Console.WriteLine("Sophia:\t\t" + sophiaScore + "\tA");
 Console.WriteLine("Nicolas:\t" + nicolasScore + "\tB");
 Console.WriteLine("Zahirah:\t" + zahirahScore + "\tB");
 Console.WriteLine("Jeong:\t\t" + jeongScore + "\tA");
+
+Console.WriteLine("\nStudent Grade (Score Analysis)\n");
+
+//create analysis about students scores
+if (sophiaScore >= 90)
+{
+    Console.WriteLine("Sophia: A");
+}
+else if (sophiaScore >= 80)
+{
+    Console.WriteLine("Sophia: B");
+}
+else if (sophiaScore >= 70)
+{
+    Console.WriteLine("Sophia: C");
+}
+else
+{
+    Console.WriteLine("Sophia: F");
+}
+
+if (nicolasScore >= 90)
+{
+    Console.WriteLine("Nicolas: A");
+}
+else if (nicolasScore >= 80)
+{
+    Console.WriteLine("Nicolas: B");
+}
+else if (nicolasScore >= 70)
+{
+    Console.WriteLine("Nicolas: C");
+}
+else
+{
+    Console.WriteLine("Nicolas: F");
+}
+
+if (zahirahScore >= 90)
+{
+    Console.WriteLine("Zahirah: A");
+}
+else if (zahirahScore >= 80)
+{
+    Console.WriteLine("Zahirah: B");
+}
+else if (zahirahScore >= 70)
+{
+    Console.WriteLine("Zahirah: C");
+}
+else
+{
+    Console.WriteLine("Zahirah: F");
+}
+
+if (jeongScore >= 90)
+{
+    Console.WriteLine("Jeong: A");
+}
+else if (jeongScore >= 80)
+{
+    Console.WriteLine("Jeong: B");
+}
+else if (jeongScore >= 70)
+{
+    Console.WriteLine("Jeong: C");
+}
+else
+{
+    Console.WriteLine("Jeong: F");
+}
